@@ -1,0 +1,27 @@
+==========================================================
+   MTA:SA 64-Bit Sunucu Otomatik Güncelleme Aracı
+==========================================================
+
+Bu araç, Multi Theft Auto (MTA:SA) 64-bit sunucunuzu en son nightly
+sürümüne tek tıkla güncellemek için hazırlanmıştır.
+
+NASIL ÇALIŞIR?
+1. "Guncelle.bat" dosyasına çift tıklayın.
+2. Açılan Windows klasör seçim ekranından MTA:SA sunucunuzun kurulu olduğu
+   ana klasörü seçin (Örn: C:\mta_server veya sunucunuz neredeyse).
+3. Araç otomatik olarak:
+   - https://nightly.multitheftauto.com sitesinden en son 64-bit sürümü bulur.
+   - Arka planda %LOCALAPPDATA% klasörüne indirir.
+   - Taşınabilir 7-Zip ile sessizce ayıklar.
+   - Sunucu klasörünüzdeki eski "MTA Server64.exe" ve "x64" klasörünü siler.
+   - Yeni güncel sürümün "MTA Server64.exe" ve "x64" klasörünü aktarır.
+   - İndirilen geçici kurulum dosyalarını temizler.
+   - İşlem bittiğinde ekrana onay mesajı verir.
+
+ÖNEMLİ BİLGİLER:
+- Sunucu ayarlarınız, veritabanınız ve "mods\deathmatch" (acl.xml, mtaserver.conf,
+  resource'lar vb.) kesinlikle SİLİNMEZ veya DEĞİŞTİRİLMEZ. Yalnızca çekirdek
+  çalıştırma dosyaları (exe ve x64 DLL kütüphaneleri) güncellenir.
+- Güncelleme yapmadan önce açık olan sunucunuzu kapatmanız tavsiye edilir.
+- Seçtiğiniz sunucu konumu "updater_config.json" dosyasına kaydedilir, bir sonraki
+  çalıştırmanızda tekrar klasör seçmeniz gerekmez; sadece ENTER'a basarak güncelleyebilirsiniz.

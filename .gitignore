@@ -1,0 +1,4 @@
+updater_config.json
+*.log
+temp/
+test_server/
