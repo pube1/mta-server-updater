@@ -1,6 +1,6 @@
 @echo off
 chcp 65001 >nul
-title MTA:SA 64-Bit Sunucu Guncelleyici
+title MTA:SA Guncelleyici (Sunucu & Oyun)
 cd /d "%~dp0"
 
 powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0updater.ps1"
